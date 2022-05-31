@@ -1,0 +1,23 @@
+.article-lista{
+    font-family: Arial, Helvetica, sans-serif;
+
+
+}
+
+
+
+.footer-lista{
+    background-color: black;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif; 
+    margin-top: auto;
+    text-align: center;
+}
+
+.margenfooter{
+    margin-bottom: 0 ;
+}
+
+.fadein{
+    display: none;
+}

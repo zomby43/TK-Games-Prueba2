@@ -1,0 +1,19 @@
+/* BARRA NAV */
+
+.navigation-clean-search.navbar .navbar-nav .nav-link {
+    padding-left: 6px;
+    padding-right: 11px;
+}
+
+
+  /* BOTON DE BUSQUEDA */
+
+.navigation-clean-search .action-button, .navigation-clean-button .action-button:active {
+    background: #ff0000;
+    border-radius: 20px;
+    font-size: inherit;
+    color: #fff !important;
+    box-shadow: none;
+    border: none;
+    text-shadow: none;
+}
