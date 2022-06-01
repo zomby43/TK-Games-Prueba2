@@ -28,4 +28,13 @@ article{
     border: solid;
     margin: 50px;
     padding: 20px;
+    border-radius: 10px;
+}
+
+h2{
+    text-align: center;
+}
+
+h4{
+    text-align: center;
 }

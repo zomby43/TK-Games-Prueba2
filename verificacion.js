@@ -24,6 +24,6 @@ function validar(){
         alert("Rut debe contener 9 caracteres")
         return false
         }
-    cadena = "Nombre: "+nombre+"\nCorreo: "+correo+"\nContraseña: "+contraseña+"\nTelefono:"+telefono+"\nRut:"+rut
+    cadena = "Nombre: "+nombre+"\nCorreo: "+correo+"\nContraseña: "+contraseña+"\nTelefono: "+telefono+"\nRut: "+rut
     alert(cadena)
 }
