@@ -20,10 +20,19 @@ function validar(){
     alert("Telefono debe contener 9 caracteres")
     return false
     }
-    if (rut.length<9){
-        alert("Rut debe contener 9 caracteres")
+    if (rut.length<=10){
+        alert("Rut debe contener 10 caracteres")
         return false
         }
+    if (rut.charAt(8) != "-")
+    {
+        alert("El guion debe ir antes del digito verificador")
+        return false
+    }
+    if (rut.length>10){
+        alert("Rut debe contener 10 caracteres")
+        return false
+    }
     cadena = "Nombre: "+nombre+"\nCorreo: "+correo+"\nContraseña: "+contraseña+"\nTelefono: "+telefono+"\nRut: "+rut
     alert(cadena)
 }
